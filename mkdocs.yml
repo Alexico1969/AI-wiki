@@ -1,0 +1,62 @@
+site_name: AI/ML Wiki
+site_description: Russell & Norvig - Artificial Intelligence A Modern Approach
+site_author: Alexander van Winkel
+theme:
+  name: material
+  palette:
+    - scheme: light
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+    - scheme: dark
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - toc.integrate
+
+markdown_extensions:
+  - pymdownx.emoji
+  - pymdownx.tasklist
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - tables
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - offline
+
+nav:
+  - Home: index.md
+  - Foundation:
+    - Intelligent Agent: concepts/intelligent-agent.md
+    - Search Algorithms: concepts/search.md
+    - Game Playing: concepts/game-playing.md
+    - Constraint Satisfaction: concepts/constraint-satisfaction.md
+  - Knowledge & Reasoning:
+    - Knowledge-Based Agents: concepts/knowledge-based-agents.md
+    - Propositional Logic: concepts/propositional-logic.md
+    - First-Order Logic: concepts/first-order-logic.md
+    - Knowledge Representation: concepts/knowledge-representation.md
+  - Planning:
+    - Classical Planning: concepts/classical-planning.md
+  - Learning & Perception:
+    - Machine Learning: concepts/machine-learning.md
+    - Neural Networks: concepts/neural-networks.md
+    - Backpropagation: concepts/backpropagation.md
+    - Robotics: concepts/robotics.md
+  - References:
+    - Mathematical Foundations: references/mathematical-foundations.md

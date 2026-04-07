@@ -1,0 +1,10 @@
+site/
+.DS_Store
+*.pyc
+__pycache__/
+.venv/
+venv/
+node_modules/
+*.egg-info/
+dist/
+build/
