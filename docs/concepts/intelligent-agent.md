@@ -9,14 +9,14 @@ updated: 2026-04-07
 
 # Intelligent Agent
 
-An **intelligent agent** is a computational system that perceives its environment through [[sensors]] and acts upon that environment through [[actuators]]. The core principle is [[rationality]] — an agent should choose actions that maximize the expected value of a [[performance-measure]].
+An **intelligent agent** is a computational system that perceives its environment through [sensors](sensors.md) and acts upon that environment through [actuators](actuators.md). The core principle is [rationality](rationality.md) — an agent should choose actions that maximize the expected value of a [performance-measure](performance-measure.md).
 
 ## Agent Model: PEAS
 
 Every intelligent agent operates within a task environment defined by **PEAS**:
 
-- **Performance**: How well the agent achieves its goals (measured by [[performance-measure]])
-- **Environment**: The world the agent operates in (characterized by [[environment-properties]])
+- **Performance**: How well the agent achieves its goals (measured by [performance-measure](performance-measure.md))
+- **Environment**: The world the agent operates in (characterized by [environment-properties](environment-properties.md))
 - **Actuators**: Physical/computational mechanisms for action
 - **Sensors**: Mechanisms for perceiving the environment
 
@@ -47,32 +47,32 @@ Environments vary along several dimensions:
 - Fast but brittle, no lookahead
 
 ### Model-Based Reflex Agents
-- Maintains [[internal-model]] of world state
+- Maintains [internal-model](internal-model.md) of world state
 - Can handle partially observable environments
 - Still reactive, no goal planning
 
 ### Goal-Based Agents
 - Has explicit goals to achieve
-- Uses [[search]] and [[planning]] to find action sequences
+- Uses [search](search.md) and [planning](planning.md) to find action sequences
 - More flexible than reflex agents
 
 ### Utility-Based Agents
-- Maximizes [[utility-function]] rather than binary goals
+- Maximizes [utility-function](utility-function.md) rather than binary goals
 - Can handle trade-offs between competing goals
 - Most sophisticated approach
 
 ### Learning Agents
-- Improves performance through [[machine-learning]]
+- Improves performance through [machine-learning](machine-learning.md)
 - Consists of: learning element, performance element, critic, problem generator
 - Enables agent to adapt to new environments
 
 ## Related Concepts
 
-- [[Rationality]] — What makes an agent "intelligent"?
-- [[Performance-Measure]] — How to evaluate agent success
-- [[Search]] — How agents find action sequences
-- [[Planning]] — High-level action sequencing
-- [[Learning]] — How agents improve over time
+- [Rationality](rationality.md) — What makes an agent "intelligent"?
+- [Performance-Measure](performance-measure.md) — How to evaluate agent success
+- [Search](search.md) — How agents find action sequences
+- [Planning](planning.md) — High-level action sequencing
+- [Learning](learning.md) — How agents improve over time
 
 ## References
 

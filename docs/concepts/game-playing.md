@@ -9,7 +9,7 @@ updated: 2026-04-07
 
 # Game Playing & Adversarial Search
 
-Game playing represents a class of problems where an [[intelligent-agent]] must make decisions in the presence of an **adversary** — another agent trying to minimize the first agent's success.
+Game playing represents a class of problems where an [intelligent-agent](intelligent-agent.md) must make decisions in the presence of an **adversary** — another agent trying to minimize the first agent's success.
 
 ## Game Formulation
 
@@ -27,7 +27,7 @@ A game requires:
 - **Terminal nodes**: Leaf nodes with known utility values
 - **Ply**: One move by one player
 
-## [[Minimax]] Algorithm
+## [Minimax](minimax.md) Algorithm
 
 The foundational adversarial search algorithm:
 
@@ -47,7 +47,7 @@ MINIMAX(state):
 - Time: $O(b^d)$ where $b$ = branching factor, $d$ = depth
 - Space: $O(bd)$ for depth-first implementation
 
-## [[Alpha-Beta-Pruning]]
+## [Alpha-Beta-Pruning](alpha-beta-pruning.md)
 
 Critical optimization for minimax:
 - **Pruning**: Eliminate branches that can't affect decision
@@ -92,22 +92,22 @@ Games with randomness (chance events):
 
 Games where full state isn't visible:
 - Card games, Kriegspiel (blind chess)
-- [[Belief states]]: Maintain distribution over possible states
+- [Belief states](belief-states.md): Maintain distribution over possible states
 - Different from fully observable games
 
 ## Historical Examples
 
 - **Deep Blue** (1997): Defeated Kasparov at chess using minimax + pruning + evaluation
 - **Chinook** (1989): Checkers, "weakly solved" the game
-- **TD-Gammon** (1995): Backgammon using [[temporal-difference-learning]]
-- **MOGO/AlphaGo** (2016): Go using [[Monte-Carlo-Tree-Search]] + [[neural-networks]]
+- **TD-Gammon** (1995): Backgammon using [temporal-difference-learning](temporal-difference-learning.md)
+- **MOGO/AlphaGo** (2016): Go using [Monte-Carlo-Tree-Search](monte-carlo-tree-search.md) + [neural-networks](neural-networks.md)
 
 ## Related Concepts
 
-- [[Search]] — Foundation for game tree exploration
-- [[Rational-Agent]] — Optimal strategy assumption
-- [[Monte-Carlo-Tree-Search]] — Modern game AI
-- [[Temporal-Difference-Learning]] — Learning game evaluation functions
+- [Search](search.md) — Foundation for game tree exploration
+- [Rational-Agent](rational-agent.md) — Optimal strategy assumption
+- [Monte-Carlo-Tree-Search](monte-carlo-tree-search.md) — Modern game AI
+- [Temporal-Difference-Learning](temporal-difference-learning.md) — Learning game evaluation functions
 
 ## References
 

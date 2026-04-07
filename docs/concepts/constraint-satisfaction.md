@@ -68,7 +68,7 @@ Reduce domains before/during search:
 
 - **Node consistency**: Unary constraints satisfied for all values
 - **Arc consistency**: $X_i$ is arc-consistent with $X_j$ if every value in $D_i$ has a compatible value in $D_j$
-  - [[AC-3]] algorithm: Most common implementation
+  - [AC-3](ac-3.md) algorithm: Most common implementation
 - **Path consistency**: Consistency for paths of 3 variables
 - **K-consistency**: Generalization to k variables
 
@@ -76,7 +76,7 @@ Reduce domains before/during search:
 
 - **Forward checking**: After assignment, remove inconsistent values from neighbors
 - **MAC** (Maintaining Arc Consistency): Full AC-3 after each assignment
-- Intelligent backtracking: Backjump to conflict source ([[conflict-directed-backjumping]])
+- Intelligent backtracking: Backjump to conflict source ([conflict-directed-backjumping](conflict-directed-backjumping.md))
 
 ## Local Search for CSPs
 
@@ -105,10 +105,10 @@ CSP performance depends heavily on constraint graph structure:
 
 ## Related Concepts
 
-- [[Search]] — CSP as specialized search problem
-- [[Inference]] — Constraint propagation
-- [[Optimization]] — Weighted CSP/constraint relaxation
-- [[Planning]] — Uses CSP-like constraint formulation
+- [Search](search.md) — CSP as specialized search problem
+- [Inference](inference.md) — Constraint propagation
+- [Optimization](optimization.md) — Weighted CSP/constraint relaxation
+- [Planning](planning.md) — Uses CSP-like constraint formulation
 
 ## References
 

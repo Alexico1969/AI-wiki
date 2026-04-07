@@ -161,12 +161,12 @@ Try different network structures (# layers, units):
 
 ## Related Concepts
 
-- [[Backpropagation]] — Detailed learning algorithm
-- [[Gradient-Descent]] — General optimization approach
-- [[Machine-Learning]] — Broader learning framework
-- [[Deep-Learning]] — Multiple layers, modern architectures
-- [[Convolutional-Networks]] — Specialized for images
-- [[Recurrent-Networks]] — Specialized for sequences
+- [Backpropagation](backpropagation.md) — Detailed learning algorithm
+- [Gradient-Descent](gradient-descent.md) — General optimization approach
+- [Machine-Learning](machine-learning.md) — Broader learning framework
+- [Deep-Learning](deep-learning.md) — Multiple layers, modern architectures
+- [Convolutional-Networks](convolutional-networks.md) — Specialized for images
+- [Recurrent-Networks](recurrent-networks.md) — Specialized for sequences
 
 ## References
 

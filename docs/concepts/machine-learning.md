@@ -20,8 +20,8 @@ A learning agent improves its performance based on:
 
 **General framework:**
 - Collect training examples: (input, output) pairs
-- Choose a [[hypothesis-space|hypothesis space]] (possible functions)
-- Use a [[learning-algorithm]] to find best hypothesis
+- Choose a [hypothesis space](hypothesis-space.md) (possible functions)
+- Use a [learning-algorithm](learning-algorithm.md) to find best hypothesis
 - Test on new data (generalization)
 
 ## Learning Paradigms
@@ -31,7 +31,7 @@ Learn function from labeled examples (input → output)
 - **Regression**: Continuous output (price, temperature)
 - **Classification**: Discrete output (category, yes/no)
 - Requires labeled training data
-- Examples: [[neural-networks]], decision trees, SVM
+- Examples: [neural-networks](neural-networks.md), decision trees, SVM
 
 ### Unsupervised Learning
 Find patterns in unlabeled data
@@ -69,18 +69,18 @@ Combination of labeled and unlabeled data
 - Set of possible functions the learner can express
 - Small space: Can't learn complex concepts
 - Large space: Risk overfitting, harder to search
-- **Inductive bias**: Preference for simpler hypotheses ([[Occam's-Razor]])
+- **Inductive bias**: Preference for simpler hypotheses ([Occam's-Razor](occam's-razor.md))
 
 ### Sample Complexity
 How many examples needed to learn well?
 - Depends on: task complexity, hypothesis space size, desired accuracy
-- [[VC-Dimension]]: Measure of hypothesis space complexity
+- [VC-Dimension](vc-dimension.md): Measure of hypothesis space complexity
 
 ## Learning Algorithms
 
 ### Passive Learning
 Learn model from data, then use it (no exploration)
-- Examples: Decision trees, [[neural-networks]], Bayesian learning
+- Examples: Decision trees, [neural-networks](neural-networks.md), Bayesian learning
 
 ### Active Learning
 Learner chooses which examples to learn from
@@ -91,7 +91,7 @@ Learner chooses which examples to learn from
 Learn continuously as new data arrives
 - Single pass through data
 - Update incrementally
-- Examples: [[perceptron]], [[gradient-descent]] variants
+- Examples: [perceptron](perceptron.md), [gradient-descent](gradient-descent.md) variants
 
 ### Batch Learning
 Collect all data first, then learn
@@ -113,11 +113,11 @@ Collect all data first, then learn
 
 ## Related Concepts
 
-- [[Neural-Networks]] — Nonlinear model learned via backpropagation
-- [[Decision-Trees]] — Interpretable tree-based models
-- [[Gradient-Descent]] — General optimization method
-- [[Reinforcement-Learning]] — Learning via rewards
-- [[Bayesian-Learning]] — Probabilistic approach to learning
+- [Neural-Networks](neural-networks.md) — Nonlinear model learned via backpropagation
+- [Decision-Trees](decision-trees.md) — Interpretable tree-based models
+- [Gradient-Descent](gradient-descent.md) — General optimization method
+- [Reinforcement-Learning](reinforcement-learning.md) — Learning via rewards
+- [Bayesian-Learning](bayesian-learning.md) — Probabilistic approach to learning
 
 ## References
 

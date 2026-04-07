@@ -128,10 +128,10 @@ Domain knowledge needed:
 
 ## Related Concepts
 
-- [[Logic]] — Formal foundation for KR
-- [[Inference]] — Using KR to derive conclusions
-- [[Knowledge-Based-Agents]] — Agents using KR schemes
-- [[Ontology-Engineering]] — Building large-scale KR systems
+- [Logic](logic.md) — Formal foundation for KR
+- [Inference](inference.md) — Using KR to derive conclusions
+- [Knowledge-Based-Agents](knowledge-based-agents.md) — Agents using KR schemes
+- [Ontology-Engineering](ontology-engineering.md) — Building large-scale KR systems
 
 ## References
 

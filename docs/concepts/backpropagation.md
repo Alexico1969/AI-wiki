@@ -9,13 +9,13 @@ updated: 2026-04-07
 
 # Backpropagation Algorithm
 
-**Backpropagation** is the foundational algorithm for training [[neural-networks|multilayer neural networks]]. It efficiently computes gradients of the loss function with respect to all weights, enabling gradient-descent learning.
+**Backpropagation** is the foundational algorithm for training [multilayer neural networks](neural-networks.md). It efficiently computes gradients of the loss function with respect to all weights, enabling gradient-descent learning.
 
 ## Problem Statement
 
 Given:
 - Training examples with input **x** and target output **y**
-- [[neural-networks|Neural network]] with weights **w**
+- [Neural network](neural-networks.md) with weights **w**
 - Loss function: Loss(w) = |y - h_w(x)|²
 
 Find:
@@ -169,11 +169,11 @@ After many layers: Δ_1 ∝ g'×g'×...×g' ≈ (0.25)^L → near zero
 
 ## Related Concepts
 
-- [[Neural-Networks]] — Architecture and theory
-- [[Gradient-Descent]] — General optimization framework
-- [[Machine-Learning]] — Learning paradigm
-- [[Deep-Learning]] — Multi-layer networks, modern variants
-- [[Chain-Rule]] — Mathematical foundation
+- [Neural-Networks](neural-networks.md) — Architecture and theory
+- [Gradient-Descent](gradient-descent.md) — General optimization framework
+- [Machine-Learning](machine-learning.md) — Learning paradigm
+- [Deep-Learning](deep-learning.md) — Multi-layer networks, modern variants
+- [Chain-Rule](chain-rule.md) — Mathematical foundation
 
 ## References
 

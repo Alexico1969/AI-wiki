@@ -9,7 +9,7 @@ updated: 2026-04-07
 
 # Propositional Logic
 
-**Propositional logic** is the simplest formal logical system, consisting of propositions (true/false statements) and logical connectives. While less expressive than [[first-order-logic]], it illustrates all fundamental concepts and provides a complete inference system.
+**Propositional logic** is the simplest formal logical system, consisting of propositions (true/false statements) and logical connectives. While less expressive than [first-order-logic](first-order-logic.md), it illustrates all fundamental concepts and provides a complete inference system.
 
 ## Syntax
 
@@ -121,14 +121,14 @@ Efficient for **definite clauses** (Horn clauses with exactly one positive liter
 - Leads to **combinatorial explosion**
 
 ## Solution: First-Order Logic
-See [[first-order-logic]] for more expressive power.
+See [first-order-logic](first-order-logic.md) for more expressive power.
 
 ## Related Concepts
 
-- [[First-Order-Logic]] — More expressive extension
-- [[Inference]] — General inference mechanisms
-- [[Logic-Programming]] — Programming paradigm based on logic
-- [[Knowledge-Representation]] — Systematic knowledge encoding
+- [First-Order-Logic](first-order-logic.md) — More expressive extension
+- [Inference](inference.md) — General inference mechanisms
+- [Logic-Programming](logic-programming.md) — Programming paradigm based on logic
+- [Knowledge-Representation](knowledge-representation.md) — Systematic knowledge encoding
 
 ## References
 

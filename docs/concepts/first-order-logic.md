@@ -9,7 +9,7 @@ updated: 2026-04-07
 
 # First-Order Logic (FOL)
 
-**First-Order Logic** extends [[propositional-logic]] with explicit representation of **objects**, **relations**, and **quantification**. It's the standard formal language for knowledge representation in AI.
+**First-Order Logic** extends [propositional-logic](propositional-logic.md) with explicit representation of **objects**, **relations**, and **quantification**. It's the standard formal language for knowledge representation in AI.
 
 ## Advantages over Propositional Logic
 
@@ -92,7 +92,7 @@ updated: 2026-04-07
 
 ## Inference in FOL
 
-See [[inference-in-first-order-logic]] for detailed treatment
+See [inference-in-first-order-logic](inference-in-first-order-logic.md) for detailed treatment
 
 **Methods**:
 - Universal Instantiation → Propositionalization
@@ -116,10 +116,10 @@ See [[inference-in-first-order-logic]] for detailed treatment
 
 ## Related Concepts
 
-- [[Propositional-Logic]] — Simpler base logic
-- [[Inference-in-First-Order-Logic]] — Proof methods for FOL
-- [[Logic-Programming]] — Practical FOL implementation
-- [[Knowledge-Representation]] — How to encode domain knowledge
+- [Propositional-Logic](propositional-logic.md) — Simpler base logic
+- [Inference-in-First-Order-Logic](inference-in-first-order-logic.md) — Proof methods for FOL
+- [Logic-Programming](logic-programming.md) — Practical FOL implementation
+- [Knowledge-Representation](knowledge-representation.md) — How to encode domain knowledge
 
 ## References
 

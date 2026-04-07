@@ -9,7 +9,7 @@ updated: 2026-04-07
 
 # Robotics
 
-**Robotics** is the integration of [[perception]], [[planning]], and [[control]] to enable physical systems to sense, reason about, and act in the real world. It's AI applied to embodied agents.
+**Robotics** is the integration of [perception](perception.md), [planning](planning.md), and [control](control.md) to enable physical systems to sense, reason about, and act in the real world. It's AI applied to embodied agents.
 
 ## Key Concepts
 
@@ -28,14 +28,14 @@ updated: 2026-04-07
 
 ### Localization & Mapping
 
-**[[Monte-Carlo-Localization]] (MCL)**:
+**[Monte-Carlo-Localization](monte-carlo-localization.md) (MCL)**:
 - Particle filter tracking robot position
 - Prediction: Propagate particles via motion model P(X'|X, v, ω)
 - Update: Weight by sensor likelihood (ray-casting)
 - Resampling: Focus particles on likely states
 - Handles global localization + multimodal uncertainty
 
-**[[Extended-Kalman-Filter]] (EKF)**:
+**[Extended-Kalman-Filter](extended-kalman-filter.md) (EKF)**:
 - Linearizes nonlinear models via Taylor expansion
 - Tracks belief as Gaussian (mean + covariance)
 - Works well with identifiable landmarks
@@ -146,19 +146,19 @@ updated: 2026-04-07
 ## Integration with AI
 
 Robotics integrates:
-- [[Search]] & [[Planning]] — Find action sequences
-- [[Probabilistic-Reasoning]] — Handle uncertainty
-- [[Machine-Learning]] — Adapt to new environments
-- [[Control-Theory]] — Execute smooth, stable actions
-- [[Perception]] — Understand world state
+- [Search](search.md) & [Planning](planning.md) — Find action sequences
+- [Probabilistic-Reasoning](probabilistic-reasoning.md) — Handle uncertainty
+- [Machine-Learning](machine-learning.md) — Adapt to new environments
+- [Control-Theory](control-theory.md) — Execute smooth, stable actions
+- [Perception](perception.md) — Understand world state
 
 ## Related Concepts
 
-- [[Perception]] — Extracting information from sensors
-- [[Planning]] — Computing action sequences
-- [[Control-Theory]] — Executing smooth actions
-- [[Machine-Learning]] — Learning from experience
-- [[Reinforcement-Learning]] — Learning control policies
+- [Perception](perception.md) — Extracting information from sensors
+- [Planning](planning.md) — Computing action sequences
+- [Control-Theory](control-theory.md) — Executing smooth actions
+- [Machine-Learning](machine-learning.md) — Learning from experience
+- [Reinforcement-Learning](reinforcement-learning.md) — Learning control policies
 
 ## References
 

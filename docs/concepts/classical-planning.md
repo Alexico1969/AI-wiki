@@ -113,10 +113,10 @@ updated: 2026-04-07
 
 ## Related Concepts
 
-- [[Search]] — Foundation for state-space search
-- [[Knowledge-Based-Agents]] — Using KB for goal-directed behavior
-- [[Hierarchical-Planning]] — HTN for real-world complexity
-- [[Inference]] — Deriving what actions achieve
+- [Search](search.md) — Foundation for state-space search
+- [Knowledge-Based-Agents](knowledge-based-agents.md) — Using KB for goal-directed behavior
+- [Hierarchical-Planning](hierarchical-planning.md) — HTN for real-world complexity
+- [Inference](inference.md) — Deriving what actions achieve
 
 ## References
 

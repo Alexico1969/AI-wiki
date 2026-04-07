@@ -9,7 +9,7 @@ updated: 2026-04-07
 
 # Search Algorithms
 
-**Search** is the process of finding a sequence of actions that achieves a goal in a given environment. It's fundamental to [[intelligent-agent]] problem-solving.
+**Search** is the process of finding a sequence of actions that achieves a goal in a given environment. It's fundamental to [intelligent-agent](intelligent-agent.md) problem-solving.
 
 ## Problem Formulation
 
@@ -38,24 +38,24 @@ Blind search with no domain knowledge. Characterized by:
 
 | Algorithm | Complete? | Optimal? | Time | Space | Notes |
 |-----------|-----------|----------|------|-------|-------|
-| [[BFS]] | Yes | Yes (if cost=1) | $O(b^d)$ | $O(b^d)$ | Exponential memory |
-| [[DFS]] | No | No | $O(b^m)$ | $O(bm)$ | m=max depth |
-| [[IDDFS]] | Yes | Yes | $O(b^d)$ | $O(bd)$ | Best uninformed |
+| [BFS](bfs.md) | Yes | Yes (if cost=1) | $O(b^d)$ | $O(b^d)$ | Exponential memory |
+| [DFS](dfs.md) | No | No | $O(b^m)$ | $O(bm)$ | m=max depth |
+| [IDDFS](iddfs.md) | Yes | Yes | $O(b^d)$ | $O(bd)$ | Best uninformed |
 | Uniform-cost | Yes | Yes | $O(b^{C*/\epsilon})$ | Exponential | Handles varying costs |
 
-### [[BFS]] (Breadth-First Search)
+### [BFS](bfs.md) (Breadth-First Search)
 - Expand shallowest nodes first
 - Uses FIFO queue
 - Complete and optimal for unit-cost problems
 - Memory-intensive: stores all nodes at frontier
 
-### [[DFS]] (Depth-First Search)
+### [DFS](dfs.md) (Depth-First Search)
 - Expand deepest nodes first  
 - Uses LIFO stack
 - Space-efficient but can get lost in infinite branches
 - Not guaranteed to find optimal solution
 
-### [[IDDFS]] (Iterative Deepening Depth-First Search)
+### [IDDFS](iddfs.md) (Iterative Deepening Depth-First Search)
 - Combines DFS space-efficiency with BFS completeness
 - Repeats DFS with increasing depth limits
 - Asymptotically same complexity as BFS, better memory
@@ -65,7 +65,7 @@ Blind search with no domain knowledge. Characterized by:
 
 Uses domain knowledge to guide search via **heuristic function** $h(n)$ = estimated cost to goal.
 
-### [[A*]] Search
+### [A*](a*.md) Search
 - **Most important algorithm in AI**
 - Evaluation function: $f(n) = g(n) + h(n)$
   - $g(n)$ = actual cost from start to $n$
@@ -98,16 +98,16 @@ For problems where path doesn't matter, only final solution:
 
 ## Beyond Classical Search
 
-- **Nondeterministic environments**: [[AND-OR-Search]]
+- **Nondeterministic environments**: [AND-OR-Search](and-or-search.md)
 - **Partial observability**: Belief states, sensorless problems
-- **Online search**: No model, learn environment online ([[LRTA*]])
+- **Online search**: No model, learn environment online ([LRTA*](lrta*.md))
 
 ## Related Concepts
 
-- [[Problem-Solving]] — Framework for using search
-- [[Planning]] — High-level search in action space
-- [[Game-Playing]] — Adversarial search ([[Minimax]], [[Alpha-Beta-Pruning]])
-- [[Constraint-Satisfaction]] — Specialized search for CSPs
+- [Problem-Solving](problem-solving.md) — Framework for using search
+- [Planning](planning.md) — High-level search in action space
+- [Game-Playing](game-playing.md) — Adversarial search ([Minimax](minimax.md), [Alpha-Beta-Pruning](alpha-beta-pruning.md))
+- [Constraint-Satisfaction](constraint-satisfaction.md) — Specialized search for CSPs
 
 ## References
 

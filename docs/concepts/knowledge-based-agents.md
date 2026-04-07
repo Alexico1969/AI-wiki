@@ -70,18 +70,18 @@ Answers from ASK must **follow from** previous TELLs:
 
 ## Representation Languages
 
-- **Propositional Logic**: [[propositional-logic]]
-- **First-Order Logic**: [[first-order-logic]]
-- **Logic Programs/Prolog**: [[logic-programming]]
-- **Description Logics**: [[description-logics]]
-- **Nonmonotonic Logics**: [[nonmonotonic-reasoning]]
+- **Propositional Logic**: [propositional-logic](propositional-logic.md)
+- **First-Order Logic**: [first-order-logic](first-order-logic.md)
+- **Logic Programs/Prolog**: [logic-programming](logic-programming.md)
+- **Description Logics**: [description-logics](description-logics.md)
+- **Nonmonotonic Logics**: [nonmonotonic-reasoning](nonmonotonic-reasoning.md)
 
 ## Related Concepts
 
-- [[Inference]] — Deriving new knowledge
-- [[Logic]] — Foundation for representations
-- [[Planning]] — Using KB to sequence actions
-- [[Knowledge-Representation]] — Systematic study of how to encode knowledge
+- [Inference](inference.md) — Deriving new knowledge
+- [Logic](logic.md) — Foundation for representations
+- [Planning](planning.md) — Using KB to sequence actions
+- [Knowledge-Representation](knowledge-representation.md) — Systematic study of how to encode knowledge
 
 ## References
 
