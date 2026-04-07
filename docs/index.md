@@ -13,28 +13,28 @@ This wiki covers the foundations and practical applications of artificial intell
 ## 🎯 Quick Navigation
 
 ### Foundation & Problem-Solving
-- **Intelligent Agent** — Core concepts of rational agents and environments
-- **Search Algorithms** — BFS, DFS, A*, and more
-- **Game Playing** — Minimax, alpha-beta pruning, adversarial search
-- **Constraint Satisfaction** — CSP formulation and solving techniques
+- [**Intelligent Agent**](concepts/intelligent-agent.md) — Core concepts of rational agents and environments
+- [**Search Algorithms**](concepts/search.md) — BFS, DFS, A*, and more
+- [**Game Playing**](concepts/game-playing.md) — Minimax, alpha-beta pruning, adversarial search
+- [**Constraint Satisfaction**](concepts/constraint-satisfaction.md) — CSP formulation and solving techniques
 
 ### Knowledge & Reasoning
-- **Knowledge-Based Agents** — Logic and inference
-- **Propositional Logic** — Boolean satisfiability and inference
-- **First-Order Logic** — Quantified reasoning and resolution
-- **Knowledge Representation** — Structured models and ontologies
+- [**Knowledge-Based Agents**](concepts/knowledge-based-agents.md) — Logic and inference
+- [**Propositional Logic**](concepts/propositional-logic.md) — Boolean satisfiability and inference
+- [**First-Order Logic**](concepts/first-order-logic.md) — Quantified reasoning and resolution
+- [**Knowledge Representation**](concepts/knowledge-representation.md) — Structured models and ontologies
 
 ### Planning
-- **Classical Planning** — State-space and plan-space approaches
+- [**Classical Planning**](concepts/classical-planning.md) — State-space and plan-space approaches
 
 ### Learning & Perception
-- **Machine Learning** — Learning paradigms and fundamentals
-- **Neural Networks** — Architecture, training, backpropagation
-- **Backpropagation** — Deep dive into the training algorithm
-- **Robotics** — Embodied AI, localization, planning, control
+- [**Machine Learning**](concepts/machine-learning.md) — Learning paradigms and fundamentals
+- [**Neural Networks**](concepts/neural-networks.md) — Architecture, training, backpropagation
+- [**Backpropagation**](concepts/backpropagation.md) — Deep dive into the training algorithm
+- [**Robotics**](concepts/robotics.md) — Embodied AI, localization, planning, control
 
 ### Mathematical Foundations
-- **Mathematical Foundations & Background** — Linear algebra, probability, complexity theory
+- [**Mathematical Foundations & Background**](references/mathematical-foundations.md) — Linear algebra, probability, complexity theory
 
 ---
 
