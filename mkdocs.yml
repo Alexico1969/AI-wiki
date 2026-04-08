@@ -47,7 +47,13 @@ plugins:
   - offline
 
 nav:
-  - 🚀 Frontier AI Models (2026):
+  - Quick Navigation:
+    - 🚀 Frontier Overview: frontier/index.md
+    - Model Comparison: frontier/model-comparison.md
+    - Release Timeline: frontier/timeline.md
+    - Benchmarks: frontier/benchmarks.md
+  - Home: index.md
+  - Frontier AI Models (2026):
     - Overview: frontier/index.md
     - Model Comparison: frontier/model-comparison.md
     - Release Timeline: frontier/timeline.md
@@ -65,7 +71,6 @@ nav:
       - Specialized & Variant Models: frontier/specialized-models.md
       - Agentic AI & Computer Use: frontier/agentic-ai.md
       - Economics & Deployment: frontier/economics.md
-  - Home: index.md
   - Foundation:
     - Intelligent Agent: concepts/intelligent-agent.md
     - Search Algorithms: concepts/search.md
