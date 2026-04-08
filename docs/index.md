@@ -1,12 +1,10 @@
 # 🚀 AI/ML Wiki
 
-A comprehensive knowledge base built from **Russell & Norvig's *Artificial Intelligence: A Modern Approach* (3rd Edition)**.
+A comprehensive knowledge base covering artificial intelligence, machine learning, and advanced topics with detailed explanations and visual diagrams.
 
 ## 📚 About This Wiki
 
-This wiki covers the foundations and practical applications of artificial intelligence, from basic problem-solving to advanced learning systems. All content is organized for quick reference and cross-learning.
-
-**Coverage**: Chapters 1-12, 18, 25 + Appendices A-B (~70% of the book)
+This wiki covers the foundations and practical applications of artificial intelligence, from basic problem-solving to advanced learning systems. All content is organized for quick reference and cross-learning, with contributions from multiple authoritative sources.
 
 ---
 
