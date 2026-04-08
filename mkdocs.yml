@@ -67,7 +67,7 @@ nav:
       - Specialized & Variant Models: frontier/specialized-models.md
       - Agentic AI & Computer Use: frontier/agentic-ai.md
       - Economics & Deployment: frontier/economics.md
-  - Foundation:
+  - Foundation Concepts:
     - Intelligent Agent: concepts/intelligent-agent.md
     - Search Algorithms: concepts/search.md
     - Game Playing: concepts/game-playing.md
