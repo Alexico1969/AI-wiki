@@ -11,6 +11,9 @@ updated: 2026-04-07
 
 **Neural Networks** are computational models inspired by biological neural systems. They learn by adjusting weights connecting artificial neurons, enabling them to approximate complex nonlinear functions.
 
+![Neural Network Architecture](../images/neural-network-example.svg)
+*A simple neural network with input layer, hidden layer, and output layer. Connections represent weighted parameters learned during training.*
+
 ## Architecture
 
 ### Basic Unit: Perceptron

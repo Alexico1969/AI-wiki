@@ -45,6 +45,9 @@ The sigmoid (logistic) function:
 - S-shaped: flat at extremes, steep in middle
 - Threshold at z=0: σ(0) = 0.5
 
+![Logistic Sigmoid Curve](../images/logistic-curve.svg)
+*The sigmoid function maps any input to a probability between 0 and 1. The curve is S-shaped with inflection point at z=0, σ(0)=0.5.*
+
 **Decision boundary**: Typically classify as:
 - Class 1 if P(y=1|x) ≥ 0.5 (i.e., σ(z) ≥ 0.5)
 - Class 0 otherwise
