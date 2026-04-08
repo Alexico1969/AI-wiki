@@ -49,6 +49,11 @@ nav:
     - Gemini 3.1 Pro: frontier/gemini-3-1.md
     - Claude 4.6 Series: frontier/claude-4-6.md
     - Llama 4 (Open-Weight): frontier/llama-4.md
+    - Architecture & Innovation:
+      - Thinking Models: frontier/thinking-models.md
+      - Mixture-of-Experts: frontier/mixture-of-experts.md
+      - Multimodal Fusion: frontier/multimodal-fusion.md
+    - Benchmarks & Performance: frontier/benchmarks.md
   - Foundation:
     - Intelligent Agent: concepts/intelligent-agent.md
     - Search Algorithms: concepts/search.md
