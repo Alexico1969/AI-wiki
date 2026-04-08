@@ -15,7 +15,7 @@ The journey from text-only models to multi-modal, thinking-enhanced, and special
 
 ## Timeline Overview
 
-![Architecture Evolution Timeline](../architecture-timeline.svg)
+![Architecture Evolution Timeline](architecture-timeline.svg)
 *Key innovations in AI architecture development*
 
 ---

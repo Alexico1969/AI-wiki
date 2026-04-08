@@ -17,7 +17,7 @@ The financial and infrastructure considerations for deploying frontier AI models
 
 ### Per-Token Pricing (April 2026)
 
-![Cost Comparison Chart](../cost-comparison.svg)
+![Cost Comparison Chart](cost-comparison.svg)
 *Output token pricing across major models (April 2026)*
 
 ```
