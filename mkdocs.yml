@@ -54,6 +54,10 @@ nav:
       - Mixture-of-Experts: frontier/mixture-of-experts.md
       - Multimodal Fusion: frontier/multimodal-fusion.md
     - Benchmarks & Performance: frontier/benchmarks.md
+    - Specialized Topics:
+      - Specialized & Variant Models: frontier/specialized-models.md
+      - Agentic AI & Computer Use: frontier/agentic-ai.md
+      - Economics & Deployment: frontier/economics.md
   - Foundation:
     - Intelligent Agent: concepts/intelligent-agent.md
     - Search Algorithms: concepts/search.md
