@@ -17,6 +17,9 @@ Comprehensive benchmark data for comparing frontier models across reasoning, cod
 
 The most comprehensive model ranking as of April 2026.
 
+![Intelligence Index Ranking](../benchmark-comparison.svg)
+*Comparative ranking of major models (April 2026)*
+
 ### Top Models Ranked
 
 | Rank | Model | Score | Release | Status |

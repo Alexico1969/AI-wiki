@@ -1,0 +1,59 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <text x="400" y="30" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">
+    Intelligence Index Ranking (April 2026)
+  </text>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f9f9f9"/>
+  
+  <!-- Grid lines -->
+  <line x1="100" y1="450" x2="750" y2="450" stroke="#ddd" stroke-width="1"/>
+  <line x1="100" y1="400" x2="750" y2="400" stroke="#ddd" stroke-width="1"/>
+  <line x1="100" y1="350" x2="750" y2="350" stroke="#ddd" stroke-width="1"/>
+  <line x1="100" y1="300" x2="750" y2="300" stroke="#ddd" stroke-width="1"/>
+  <line x1="100" y1="250" x2="750" y2="250" stroke="#ddd" stroke-width="1"/>
+  <line x1="100" y1="200" x2="750" y2="200" stroke="#ddd" stroke-width="1"/>
+  
+  <!-- Y-axis labels (scores) -->
+  <text x="80" y="455" font-size="12" text-anchor="end" fill="#666">50</text>
+  <text x="80" y="405" font-size="12" text-anchor="end" fill="#666">52</text>
+  <text x="80" y="355" font-size="12" text-anchor="end" fill="#666">54</text>
+  <text x="80" y="305" font-size="12" text-anchor="end" fill="#666">56</text>
+  <text x="80" y="255" font-size="12" text-anchor="end" fill="#666">57</text>
+  
+  <!-- Bar 1: Gemini 3.1 Pro (57.0) -->
+  <rect x="130" y="92" width="80" height="358" fill="#4285F4" rx="4"/>
+  <text x="170" y="470" font-size="13" text-anchor="middle" font-weight="bold" fill="#333">Gemini 3.1</text>
+  <text x="170" y="485" font-size="11" text-anchor="middle" fill="#666">57.0</text>
+  
+  <!-- Bar 2: GPT-5.4 Standard (56.8) -->
+  <rect x="230" y="100" width="80" height="350" fill="#00A67E" rx="4"/>
+  <text x="270" y="470" font-size="13" text-anchor="middle" font-weight="bold" fill="#333">GPT-5.4</text>
+  <text x="270" y="485" font-size="11" text-anchor="middle" fill="#666">56.8</text>
+  
+  <!-- Bar 3: Claude Opus 4.6 (56.5) -->
+  <rect x="330" y="110" width="80" height="340" fill="#DA6B1F" rx="4"/>
+  <text x="370" y="470" font-size="13" text-anchor="middle" font-weight="bold" fill="#333">Claude 4.6</text>
+  <text x="370" y="485" font-size="11" text-anchor="middle" fill="#666">56.5</text>
+  
+  <!-- Bar 4: Llama 4 Maverick (54.2) -->
+  <rect x="430" y="232" width="80" height="218" fill="#CE422B" rx="4"/>
+  <text x="470" y="470" font-size="13" text-anchor="middle" font-weight="bold" fill="#333">Llama 4</text>
+  <text x="470" y="485" font-size="11" text-anchor="middle" fill="#666">54.2</text>
+  
+  <!-- Bar 5: GPT-5.4 Mini (53.1) -->
+  <rect x="530" y="282" width="80" height="168" fill="#00A67E" rx="4" opacity="0.7"/>
+  <text x="570" y="470" font-size="13" text-anchor="middle" font-weight="bold" fill="#333">GPT Mini</text>
+  <text x="570" y="485" font-size="11" text-anchor="middle" fill="#666">53.1</text>
+  
+  <!-- Bar 6: Claude Sonnet (55.8) -->
+  <rect x="630" y="135" width="80" height="315" fill="#DA6B1F" rx="4" opacity="0.8"/>
+  <text x="670" y="470" font-size="13" text-anchor="middle" font-weight="bold" fill="#333">Claude Sonnet</text>
+  <text x="670" y="485" font-size="11" text-anchor="middle" fill="#666">55.8</text>
+  
+  <!-- Legend -->
+  <text x="100" y="520" font-size="12" font-style="italic" fill="#666">
+    Score = Weighted average of AIME 2025, SWE-bench, MMLU, and other benchmarks
+  </text>
+</svg>

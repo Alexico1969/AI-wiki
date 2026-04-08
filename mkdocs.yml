@@ -54,6 +54,7 @@ nav:
       - Mixture-of-Experts: frontier/mixture-of-experts.md
       - Multimodal Fusion: frontier/multimodal-fusion.md
     - Benchmarks & Performance: frontier/benchmarks.md
+    - Architecture Evolution: frontier/architecture-evolution.md
     - Specialized Topics:
       - Specialized & Variant Models: frontier/specialized-models.md
       - Agentic AI & Computer Use: frontier/agentic-ai.md
