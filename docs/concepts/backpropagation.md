@@ -11,8 +11,8 @@ updated: 2026-04-07
 
 **Backpropagation** is the foundational algorithm for training [multilayer neural networks](neural-networks.md). It efficiently computes gradients of the loss function with respect to all weights, enabling gradient-descent learning.
 
-![Artificial Neural Network](../images/artificial-neural-network.svg)
-*A multi-layer neural network showing all connections through which gradients flow during backpropagation.*
+![Backpropagation Algorithm: Feedforward, Error Calculation, and Backward Error Flow](../images/backpropagation-algorithm.png)
+*The complete backpropagation process: (1) Feedforward prediction, (2) Calculate loss/error, (3) Backpropagate errors (red arrows) using chain rule to compute gradients, then update weights via gradient descent.*
 
 ## Problem Statement
 

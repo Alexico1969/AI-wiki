@@ -17,13 +17,14 @@ All images in this directory are sourced from Wikimedia Commons and are freely l
 - **License**: Free/Public Domain
 - **Used in**: `neural-networks.md`
 
-### 3. artificial-neural-network.svg
-- **Description**: Detailed artificial neural network architecture diagram
-- **Author**: Cburnett (Wikimedia Commons)
-- **Source**: https://commons.wikimedia.org/wiki/File:Artificial_neural_network.svg
-- **License**: GFDL (GNU Free Documentation License)
-- **Date**: December 27, 2006
-- **Used in**: `backpropagation.md`
+### 3. backpropagation-algorithm.png
+- **Description**: Complete backpropagation process with three phases
+- **Shows**: 
+  - Phase 1: Feedforward prediction through network
+  - Phase 2: Error calculation using loss function
+  - Phase 3: Backpropagation with error flow (red arrows), chain rule, gradient computation, and weight updates
+- **License**: Educational/Research use
+- **Used in**: `backpropagation.md` (REPLACED artificial-neural-network.svg)
 
 ### 4. binary-tree.svg
 - **Description**: Binary tree structure visualization
