@@ -1,6 +1,9 @@
 site_name: AI/ML Wiki
-site_description: Russell & Norvig - Artificial Intelligence A Modern Approach
+site_description: Frontier AI Models - April 2026
 site_author: Alexander van Winkel
+site_url: https://Alexico1969.github.io/AI-wiki/
+repo_url: https://github.com/Alexico1969/AI-wiki
+edit_uri: edit/main/docs/
 theme:
   name: material
   palette:
