@@ -23,6 +23,9 @@ A game requires:
 
 ## Game Tree Search
 
+![Binary Search Tree Structure](../images/binary-search-tree.svg)
+*Game trees are similar to binary trees. Each node represents a board state, branches represent possible moves, and leaves show terminal states with utility values.*
+
 - **Game tree**: Tree of all possible move sequences
 - **Terminal nodes**: Leaf nodes with known utility values
 - **Ply**: One move by one player

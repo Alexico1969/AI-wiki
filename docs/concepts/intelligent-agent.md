@@ -13,6 +13,9 @@ An **intelligent agent** is a computational system that perceives its environmen
 
 ## Agent Model: PEAS
 
+![Agent-Environment Interaction](../images/agent-environment.svg)
+*An intelligent agent interacts with its environment: receiving percepts (inputs) from sensors and sending actions (outputs) through actuators.*
+
 Every intelligent agent operates within a task environment defined by **PEAS**:
 
 - **Performance**: How well the agent achieves its goals (measured by [performance-measure](performance-measure.md))

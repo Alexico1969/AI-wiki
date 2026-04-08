@@ -13,6 +13,9 @@ updated: 2026-04-07
 
 ## Problem Formulation
 
+![Binary Tree Search Structure](../images/binary-tree.svg)
+*A tree structure showing how search algorithms explore the state space. Root is initial state, branches show possible actions, leaves are goal states.*
+
 Every search problem requires:
 - **Initial state**: Where the agent starts
 - **Actions/Operators**: Available moves in each state

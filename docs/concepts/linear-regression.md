@@ -45,6 +45,9 @@ y = w₀ + w₁x₁ + w₂x₂ + ... + wₙxₙ + ε
 
 ## Learning Algorithm
 
+![Linear Regression Least Squares Fit](../images/linear-regression-plot.svg)
+*Data points (red dots) with the best-fit line. Green lines show the error (residual) for each point. Linear regression minimizes the sum of squared errors.*
+
 ### Objective
 Minimize **sum of squared errors** (SSE):
 ```

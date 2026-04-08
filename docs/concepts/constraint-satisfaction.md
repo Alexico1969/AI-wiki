@@ -27,6 +27,9 @@ Every CSP consists of:
 
 ## Problem Representation
 
+![Graph Structure for Constraint Problems](../images/graph-structure.svg)
+*Constraint graph where nodes represent variables and edges represent constraints between them. Used to visualize problem structure and apply domain-specific algorithms.*
+
 ### Constraint Graph
 - **Nodes**: Variables
 - **Edges**: Pairs of variables that share a constraint

@@ -13,6 +13,9 @@ updated: 2026-04-07
 
 ## Problem Formulation
 
+![State Diagram and Transitions](../images/state-diagram.svg)
+*State space for planning shows states (nodes) and actions (edges) that transition from initial state to goal state.*
+
 ### PDDL (Planning Domain Definition Language)
 
 **States**:

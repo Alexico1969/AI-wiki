@@ -26,6 +26,9 @@ A learning agent improves its performance based on:
 
 ## Learning Paradigms
 
+![Confusion Matrix for Classification](../images/confusion-matrix.svg)
+*Confusion matrix showing true positives, false positives, true negatives, and false negatives. Used to evaluate classification model performance.*
+
 ### Supervised Learning
 Learn function from labeled examples (input → output)
 - **Regression**: Continuous output (price, temperature)
