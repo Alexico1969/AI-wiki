@@ -47,7 +47,7 @@ plugins:
   - offline
 
 nav:
-  - 🚀 Quick Navigation: frontier/index.md
+  - Quick Navigation: frontier/index.md
   - Home: index.md
   - Frontier AI Models (2026):
     - Overview: frontier/index.md
