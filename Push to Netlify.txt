@@ -1,0 +1,46 @@
+1. Install Netlify CLI (once)
+npm install -g netlify-cli
+2. Log in (once)
+netlify login
+3. From your project folder
+
+Navigate to the folder that contains your build output (/dist most likely):
+
+cd path/to/your/project
+4. Deploy
+netlify deploy --prod
+
+👉 This will:
+
+Upload your current build
+Push it live immediately
+Ignore Git completely
+⚠️ Important (this trips people up)
+
+If you use a build step (like npm run build):
+
+👉 You must run that first:
+
+npm run build
+netlify deploy --prod
+
+Otherwise you're deploying outdated files.
+
+🔥 Pro tip (better command)
+
+If your output folder is /dist, use:
+
+netlify deploy --prod --dir=dist
+
+That avoids confusion.
+
+🚫 What NOT to do
+Not in Netlify dashboard ❌
+Not in browser ❌
+Not SSH into Netlify ❌
+💡 Your workflow now
+Make changes locally
+npm run build
+netlify deploy --prod
+
+👉 That’s it. Full control. No surprise deploys.

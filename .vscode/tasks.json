@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build project",
+      "type": "shell",
+      "command": "npm run build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Deploy to Netlify",
+      "type": "shell",
+      "command": "netlify deploy --prod --dir=dist",
+      "problemMatcher": []
+    },
+    {
+      "label": "Build and Deploy to Netlify",
+      "dependsOrder": "sequence",
+      "dependsOn": [
+        "Build project",
+        "Deploy to Netlify"
+      ],
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}

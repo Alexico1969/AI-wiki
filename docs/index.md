@@ -10,6 +10,14 @@ This wiki covers the foundations and practical applications of artificial intell
 
 ## 🎯 Quick Navigation
 
+### Frontier AI Models (2026)
+- [**Overview**](frontier/index.md) — The 2026 AI landscape and paradigm shifts
+- [**GPT-5.4 Family**](frontier/gpt-5-4.md) — OpenAI's latest with agentic capabilities
+- [**Gemini 3.1 Pro**](frontier/gemini-3-1.md) — Google's multimodal thinking model
+- [**Claude 4.6 Series**](frontier/claude-4-6.md) — Anthropic's reasoning models
+- [**Llama 4 (Open-Weight)**](frontier/llama-4.md) — Meta's efficient open-source models
+- [**Model Comparison**](frontier/model-comparison.md) — Side-by-side feature matrix
+
 ### Foundation & Problem-Solving
 - [**Intelligent Agent**](concepts/intelligent-agent.md) — Core concepts of rational agents and environments
 - [**Search Algorithms**](concepts/search.md) — BFS, DFS, A*, and more
