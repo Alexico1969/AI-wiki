@@ -55,6 +55,8 @@ nav:
     - Classical Planning: concepts/classical-planning.md
   - Learning & Perception:
     - Machine Learning: concepts/machine-learning.md
+    - Linear Regression: concepts/linear-regression.md
+    - Logistic Regression: concepts/logistic-regression.md
     - Neural Networks: concepts/neural-networks.md
     - Backpropagation: concepts/backpropagation.md
     - Robotics: concepts/robotics.md
