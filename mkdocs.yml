@@ -41,6 +41,10 @@ plugins:
 
 nav:
   - Home: index.md
+  - Frontier AI Models (2026):
+    - Overview: frontier/index.md
+    - Model Comparison: frontier/model-comparison.md
+    - Release Timeline: frontier/timeline.md
   - Foundation:
     - Intelligent Agent: concepts/intelligent-agent.md
     - Search Algorithms: concepts/search.md
