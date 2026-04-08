@@ -4,6 +4,10 @@ site_author: Alexander van Winkel
 site_url: https://Alexico1969.github.io/AI-wiki/
 repo_url: https://github.com/Alexico1969/AI-wiki
 edit_uri: edit/main/docs/
+docs_dir: docs
+site_dir: site
+use_directory_urls: true
+nav_exclude_search: false
 theme:
   name: material
   palette:
